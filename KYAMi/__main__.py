@@ -63,8 +63,8 @@ from KYAMi.modules.helper_funcs.misc import paginate_modules
 from KYAMi.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-ʜᴏʟᴀ,ɪ'ᴍ ᴀᴜʀᴏʀᴀ[🚀](https://telegra.ph/file/24f53325c73f0ae72223c.jpg)
-ɪ'ᴍ ᴀɴ ᴀꜱᴛʀᴏɴᴏᴍʏ ᴛʜᴇᴍᴇᴅ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ᴡɪᴛʜ ᴘᴏᴡᴇʀꜰᴜʟ ᴛᴏᴏʟꜱ
+ʜᴏʟᴀ,ɪ'ᴍ KYAMi [🚀] (https://te.legra.ph/file/a781846792fa77c9b282e.mp4)
+ɪ'ᴍ A NON VIOALATED ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ᴡɪᴛʜ ᴘᴏᴡᴇʀꜰᴜʟ ᴛᴏᴏʟꜱ
 ✪ Make sure you read *INFO* Section Below ✪ 
 """
 
@@ -85,7 +85,7 @@ buttons = [
 
         InlineKeyboardButton(
 
-            text="➕ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ☂", url="t.me/Auroraskbot?startgroup=true"
+            text="➕ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ☂", url="t.me/KYAMI_ROBOT?startgroup=true"
 
         ),
 
@@ -95,7 +95,7 @@ buttons = [
 
 
 HELP_STRINGS = f"""
-*Main Commands :* [🌙](https://telegra.ph/file/2618807cd20a13ee84287.jpg)
+*Main Commands :* [🌙](https://te.legra.ph/file/ca23a49c09faa03d4782d.mp4)
 ◉ /start: Starts me! You've probably already used this.
 ◉ /mhelp: Click this,To check music bot!
 ◉ /vhelp: You can view my video bot.
@@ -110,8 +110,8 @@ HELP_STRINGS = f"""
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 You can help to the original writer's of the Base code,
-Support them  [SupunMax](t.me/maxsupun1), [SL_Tech_World](https://t.me/SL_Tech_Worldchat),
-And @DaisyXBOT"""
+Support them  [AGASTYA](t.me/SMILE_OF_YOUR_FACE), [CHATING GROUP](https://t.me/friendslabo),
+And @KYAMI_ROBOT"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -375,7 +375,7 @@ def DaisyX_about_callback(update, context):
 
         query.message.edit_text(
 
-            text=f"ᴛʜᴇ ᴀᴜʀᴏʀᴀ ᴘʀᴏᴊᴇᴄᴛ [ 🌙](https://telegra.ph/file/2d1e74b6cdf64027933c7.jpg)"
+            text=f"ᴛʜᴇ KYAMi ᴘʀᴏᴊᴇᴄᴛ [ 🌙](https://te.legra.ph/file/4fd63d3d6e8321c6f0574.mp4)"
             f"\n\n ᴛʜɪꜱ ɪꜱ ᴛʜᴇ ᴍᴀɪɴ ʙᴏᴛ"
                   f"\n\n ᴏᴛʜᴇʀ ʙᴏᴛꜱ ᴀʀᴇ"
                  f"\n\n  •ᴛʜᴇ ᴀꜱᴛʀᴏ ꜱᴏᴜʟ"
@@ -397,13 +397,13 @@ def DaisyX_about_callback(update, context):
 
                         InlineKeyboardButton(
 
-                            text="Bᴜɢ'ꜱ🐞", url="https://t.me/ParkPMBot"
+                            text="Bᴜɢ'ꜱ🐞", url="https://t.me/KYAMISUPPORT"
 
                         ),
 
                         InlineKeyboardButton(
 
-                            text="Updates💁‍♀️", url="https://t.me/TheAuroraProject"
+                            text="Updates💁‍♀️", url= "https://t.me/kyamiupdates"
 
                         ),
 
@@ -413,7 +413,7 @@ def DaisyX_about_callback(update, context):
 
                         InlineKeyboardButton(
 
-                            text="Donate 🤕", url="http://t.me/Auroraskbot?start=/donate"
+                            text="Donate 🤕", url="http://t.me/KYAMI_RObot?start=/donate"
 
                         ),
 
